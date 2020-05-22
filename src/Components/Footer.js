@@ -6,6 +6,7 @@ function Footer(props) {
   return (
     <div>
       <FooterMenu footerMenu={props.footerMenu}/>
+      <button onClick={() => props.attempt('Tilapia')}>Tilapia</button>
     </div>
   );
 }
